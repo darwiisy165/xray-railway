@@ -1,0 +1,16 @@
+{
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{ "id": "de305d54-75b4-431b-adb2-eb6b9e546014" }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": { "path": "/xray-railway" }
+    }
+  }],
+  "outbounds": [{ "protocol": "freedom" }]
+}
+
